@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz - Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculadora</h1>
+    <div>
+      <input type="number" placeholder="Número 1" id="numero1" />
+      <br />
+      <button onclick="suma('suma')">Sumar</button>
+      <button onclick="resta('resta')">Restar</button>
+      <button onclick="multiplicacion('multiplicacion')">Multiplicar</button>
+      <button onclick="division('division')">Dividir</button>
+      <br />
+      <input type="number" placeholder="Número 2" id="numero2" />
+      <br />
+      <button onclick="obtenerResultado()">Resultado</button>
+      <input type="number" id="resultado" disabled />
+    </div>
+
+    <div id="resultado"></div>
+    <script src="main.js"></script>
+  </body>
+</html>

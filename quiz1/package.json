@@ -1,0 +1,15 @@
+{
+  "name": "quiz1",
+  "version": "1.0.0",
+  "description": "El quiz consta de dos partes, una teórica que vale 50 puntos y una práctica de 50 puntos para un total de 100.",
+  "main": "main.js",
+  "dependencies": {
+    "git": "^0.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "STM",
+  "license": "ISC"
+}
