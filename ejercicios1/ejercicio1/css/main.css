@@ -1,0 +1,48 @@
+
+/* 
+Css aplicado al campo de texto con id txtNombre
+*/
+#txtNombre {
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
+.contenedorMargin {
+    border: 2px solid #3f3f3f;
+    margin: 30px 30px 30px 30px;
+    height: 100px;
+}
+
+.contenedorPadding {
+    border: 2px solid blue;
+    padding: 30px 30px 30px 30px;
+}
+
+p {
+    border: 1px solid yellow;
+    
+}
+
+/* Agrega css a TODAS las imagenes de la página */
+img {
+    /* Imagenes alineadas a la izquierda */
+  float: left;
+}
+
+
+.myButton {
+ background-color: darkblue;
+color:white;
+border-radius: 5px;
+padding: 5px;
+border-style: none;
+}
+
+.myButton:hover {
+    background-color: yellow;
+   color:white;
+   border-radius: 5px;
+   padding: 5px;
+   border-style: none;
+   }
+
